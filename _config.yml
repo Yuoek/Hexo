@@ -116,7 +116,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:yuoek/yuoek.github.io.git
+  repo: https://github.com/yuoek/yuoek.github.io
   branch: main
 
 aplayer:

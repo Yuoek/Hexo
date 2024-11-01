@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>菜单</title>
+        
+        <!-- JS -->
+        <script language="javascript">
+            function init()
+            {//先隐藏二级菜单
+                document.getElementById("sub_menu_1").hidden=true;
+                document.getElementById("sub_menu_2").hidden=true;
+                document.getElementById("sub_menu_3").hidden=true;
+                document.getElementById("sub_menu_4").hidden=true;
+                document.getElementById("sub_menu_5").hidden=true;
+            }
+            function f(str)
+            {//点击展开折叠效果
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+            }
+        </script>
+
+        <!-- CSS -->
+        <style type="text/css">
+            body{
+                background-color: #f2f2f300;
+                text-align: left;
+            }
+            tr{
+                text-align: center;
+            }
+            table{
+                border-top:0px solid;
+                border-bottom:0px solid;
+                border-bottom-color: #b7fccc;
+                border-top-color: #9df7d9;
+            }
+            .table{
+                margin-left:10px;
+                border-left:0px solid;
+                border-right:0px solid;
+                border-left-color: #ffbc9e;
+                border-right-color: #ffa7e5;
+            }
+
+            /*一级标题*/
+            .one{
+                height: 30px;
+                width: 150px;
+                background-color: #50e47c00;
+                color: #f1b833;
+                cursor: pointer;/*小手*/
+            }
+
+            /*二级标题*/
+            .two tr{
+                background-color: #7fe7ee00;
+                color: #000;
+            }
+            .two a{
+                /*margin-left: 50px;*/
+                /*float: right;*/
+                text-decoration: none;
+                color: #000;
+            }
+            .two td{
+                height: 25px;
+                width: 135px;
+            }
+        </style>
+
+    </head>
+    <body onload="init()">
+            <table cellspacing="0" cellpadding="0" class="table">
+                <tbody>
+                 	<tr onclick = "f('sub_menu_1')">
+                        <td class="one">生活</td>
+                    </tr>
+                    <tr>
+                        <td class="two">
+                            <table id="sub_menu_1">
+                                <tbody>
+                                    <tr><td><a href="modify_password.html" target="main">生活</a></td></tr>
+                                    <tr><td><a href="my_information.html" target="main">考级</a></td></tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr height="1px"></tr>
+                    <tr onclick = "f('sub_menu_2')">
+                        <td class="one" >计算机</td>
+                    </tr>
+                    <tr>
+                        <td class="two">
+                            <table id="sub_menu_2" >
+                                <tbody>
+                                    <tr><td><a href="" target="main">计算机</a></td></tr>
+                                    <tr><td><a href="" target="main">数学</a></td></tr>
+                                    <tr><td><a href="" target="main">物理</a></td></tr>
+                                    <tr><td><a href="" target="main">天文</a></td></tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <tr height="1px"></tr>
+                    <tr onclick = "f('sub_menu_3')">
+                        <td class="one">🕊🎬🧡😜</td>
+                    </tr>
+                    <tr>
+                        <td class="two">
+                            <table id="sub_menu_3" >
+                                <tbody>
+                                    <tr><td><a href="" target="main">🕊🎬🧡😜</a></td></tr>
+                                    <tr><td><a href="" target="main">🕊🎬🧡😜</a></td></tr>
+                                    <tr><td><a href="" target="main">🕊🎬🧡😜</a></td></tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr height="1px"></tr>
+                    <tr onclick = "f('sub_menu_4')">
+                        <td class="one">🕊🎬🧡😜</td>
+                    </tr>
+                    <tr>
+                        <td class="two">
+                            <table id="sub_menu_4" >
+                                <tbody>
+                                    <tr><td><a href="" target="main">🕊🎬🧡😜</a></td></tr>
+                                    <tr><td><a href="" target="main">🕊🎬🧡😜</a></td></tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr height="1px"></tr>
+                    <tr onclick = "f('sub_menu_5')">
+                        <td class="one">🕊🎬🧡😜</td>
+                    </tr>
+                    <tr>
+                        <td class="two">
+                            <table id="sub_menu_5" >
+                                <tbody>
+                                    <tr><td><a href="" target="main">🕊🎬🧡😜</a></td></tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+    </body>
+</html>

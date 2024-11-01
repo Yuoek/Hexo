@@ -1,0 +1,235 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 飛䎅Feloy
+subtitle: 
+description: 遇光见影, 遇你见爱
+keywords:
+author: Yuoek
+language: zh-CN
+timezone:
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://www.feloy.top
+permalink: :post_title.html
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render: 
+    - 'revealjs/**'
+    - 'markmap/**'
+    - 'html/**'
+    - 'feloy/**'
+    - 'L/**'
+    - 'Books/**'
+    - 'Voice/**'
+    - '_posts/*.png'
+    - '_posts/*.jpg'
+    - '_posts/*.jpeg'
+    
+
+
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 99
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map: 
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 99
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: next
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: git@github.com:yuoek/yuoek.github.io.git
+  branch: main
+
+aplayer:
+    enable: true
+    meting: true
+
+hexo-tag-dplayer:
+  cdn:
+    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
+    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
+  default: 
+    api: https://api.prprpr.me/dplayer/
+    loop: yes
+    screenshot: yes
+    # 后面还可以接着写其他默认配置
+search:
+  path: search.xml
+  field: all
+  format: html
+  content: true
+  limit: 10000
+
+# mermaid chart
+mermaid: ## mermaid url https://github.com/knsv/mermaid
+  enable: true  # default true
+  version: "8.11.0" # default v7.1.2
+  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+  startOnload: true  // default true
+
+
+
+
+    
+    
+restful:
+  # site 可配置为数组选择性生成某些属性
+  # site: ['title', 'subtitle', 'description', 'author', 'since', email', 'favicon', 'avatar']
+  site: true        # hexo.config mix theme.config
+  posts_size: 0    # 文章列表分页，0 表示不分页
+  posts_props:      # 文章列表项的需要生成的属性
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    excerpt: false
+    cover: true      # 封面图，取文章第一张图片
+    content: false
+    keywords: false
+    categories: true
+    tags: true
+  categories: true         # 分类数据
+  use_category_slug: false # Use slug for filename of category data
+  tags: true               # 标签数据
+  use_tag_slug: false      # Use slug for filename of tag data
+  post: true               # 文章数据
+  pages: false             # 额外的 Hexo 页面数据, 如 About
+  
+
+
+markdown:
+ preset: "default"
+ render:
+   html: true
+   xhtmlOut: false
+   langPrefix: "language-"
+   breaks: true
+   linkify: true
+   typographer: true
+   quotes: "“”‘’"
+ enable_rules:
+ disable_rules:
+ plugins:
+   - markdown-it-abbr
+   - markdown-it-cjk-breaks
+   - markdown-it-deflist
+   - markdown-it-emoji
+   - markdown-it-footnote
+   - markdown-it-ins
+   - markdown-it-mark
+   - markdown-it-sub
+   - markdown-it-sup
+   - markdown-it-checkbox
+   - markdown-it-imsize
+   - markdown-it-expandable
+   - name: markdown-it-container
+     options: success
+   - name: markdown-it-container
+     options: tips
+   - name: markdown-it-container
+     options: warning
+   - name: markdown-it-container
+     options: danger
+ anchors:
+   level: 2
+   collisionSuffix: ""
+   permalink: false
+   permalinkClass: "header-anchor"
+   permalinkSide: "left"
+   permalinkSymbol: "¶"
+   case: 0
+   separator: "-"
+   
+   
+# 图片懒加载
+lazyload:
+  enable: true 
+  onlypost: false
+  loadingImg: /images/loading/loading.gif #如果不填写图片则使用默认的图片
+  isSPA: true # optional
+
+
+hexo_markmap:
+  katex: true
+  

@@ -1,0 +1,104 @@
+.body{
+    background-color: rgba(239, 66, 170, 0);
+}
+/* 包裹菜单栏的div居中 */
+.nav{
+    margin: 0 0;
+    width: 100%;
+}
+/* 描述a标签的css */
+.nav a{
+    display: block;
+    width: 100px;
+    color: white;
+    background-color: #fff0;
+    text-align: center;
+    text-decoration: none;
+}
+/* 鼠标悬停a标签事改变背景色 */
+.nav a:hover{
+	color: blue;
+    background-color: rgba(61, 220, 241, 0.644);
+}
+/* 去除无序列表 无标记 取消默认的内边距  */
+.nav ul{
+    list-style: none;
+    padding: 10px;
+}
+.drop-down > ul{
+	float: right;
+    background-color: rgba(12, 138, 241, 0);
+}
+/* 一级菜单设置浮动 使之在一行上面 */
+.drop-down > ul >li {
+    float: right;
+    /* 为了让二级菜单栏参照定位  */
+    position: relative;
+}
+/* 一级菜单栏悬停鼠标时显示二级菜单栏 */
+.drop-down > ul >li:hover > ul{
+    display: block;
+}
+/* 二级菜单栏绝对定位 脱离文档 默认不显示 */
+.drop-down > ul >li > ul {
+    position: absolute;
+    display: none;
+}
+/* 在二级菜单栏悬停鼠标时 显示相对于的三级菜单栏 */
+.drop-down > ul > li > ul > li:hover > ul{
+    display: block;
+}
+/* 二级菜单栏相对定位 为下面三级菜单栏绝对定位做准备 */
+.drop-down > ul > li > ul > li{
+    position: relative;
+}
+/* 三级菜单栏绝对定位 脱离文档流 并且位于二级菜单栏右边 默认不显示 */
+.drop-down > ul > li > ul > li > ul {
+    position: absolute;
+    right: 100%;
+    top:0;
+    display: none;
+}
+/* 在三级菜单栏悬停鼠标时 显示相对于的三级菜单栏 */
+.drop-down > ul > li > ul > li > ul > li:hover > ul{
+    display: block;
+}
+/* 三级菜单栏相对定位 为下面三级菜单栏绝对定位做准备 */
+.drop-down > ul > li > ul > li > ul > li{
+    position: relative;
+}
+/* 四级菜单栏绝对定位 脱离文档流 并且位于五级菜单栏右边 默认不显示 */
+.drop-down > ul > li > ul > li > ul > li > ul {
+    position: absolute;
+    right: 100%;
+    top:0;
+    display: none;
+}
+/* 在四级菜单栏悬停鼠标时 显示相对于的五级菜单栏 */
+.drop-down > ul > li > ul > li > ul > li > ul > li:hover > ul{
+    display: block;
+}
+/* 四级菜单栏相对定位 为下面三级菜单栏绝对定位做准备 */
+.drop-down > ul > li > ul > li > ul > li > ul > li{
+    position: relative;
+}
+/* 四级菜单栏绝对定位 脱离文档流 并且位于二级菜单栏右边 默认不显示 */
+.drop-down > ul > li > ul > li > ul > li > ul > li > ul {
+    position: absolute;
+    right: 100%;
+    top:0;
+    display: none;
+}
+/* 清除浮动 兼容低版本IE */
+.clearfix{
+    *zoom: 1;
+}
+/* 清除一级菜单栏浮动的操作 */
+.clearfix ::after{
+    content: ".";
+    display: block;
+    clear: both;
+/* 兼容低版本Firefox*/
+    height: 0;
+    overflow: hidden;
+}

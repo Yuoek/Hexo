@@ -19,7 +19,6 @@ categories:
 <!--more-->
 
 
-My dear yang, belive yourself!
 
 
 

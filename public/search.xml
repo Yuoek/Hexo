@@ -1,12 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello</title>
+    <url>/posts/Hello/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Hello-Yuoek">Hello Yuoek</h2>
+]]></content>
+  </entry>
+  <entry>
     <title>Happy</title>
-    <url>/happy.html</url>
+    <url>/undefined/HappyIce-cream/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>喜欢你</h1>
-<center><font color=#6f5dee>遥远的你 </font>
+<center><font color=#6f5dee>Latex 数学公式 </font>
 <span id="more"></span>
-<p>七月的风，八月的雨，卑微的我喜欢遥远的你!</p>
+<p>Latex 数学常用的公式<br>
+以下是一些在 LaTeX 中常用的数学公式示例：</p>
+<ol>
+<li>
+<p>基本数学运算符</p>
+<ul>
+<li>加法：$a + b$ 显示为 $a + b$</li>
+<li>减法：$a - b$ 显示为 $a - b$</li>
+<li>乘法：$a \cdot b$ 显示为 $a \cdot b$ ，也可以使用 $a\times b$ 显示为 $a\times b$</li>
+<li>除法：$\frac{a}{b}$ 显示为 $\frac{a}{b}$</li>
+</ul>
+</li>
+<li>
+<p>上标和下标</p>
+<ul>
+<li>上标：$a^{b}$ 显示为 $a^{b}$</li>
+<li>下标：$a_{b}$ 显示为 $a_{b}$</li>
+</ul>
+</li>
+<li>
+<p>分数</p>
+<ul>
+<li>普通分数：$\frac{numerator}{denominator}$ ，例如 $\frac{3}{4}$ 显示为 $\frac{3}{4}$</li>
+</ul>
+</li>
+<li>
+<p>平方根</p>
+<ul>
+<li>$\sqrt{x}$ 显示为 $\sqrt{x}$</li>
+<li>立方根：$\sqrt[3]{x}$ 显示为 $\sqrt[3]{x}$</li>
+</ul>
+</li>
+<li>
+<p>求和与积分</p>
+<ul>
+<li>求和：$\sum_{i=1}^{n} a_i$ 显示为 $\sum_{i=1}^{n} a_i$</li>
+<li>积分：$\int_{a}^{b} f(x) dx$ 显示为 $\int_{a}^{b} f(x) dx$</li>
+</ul>
+</li>
+<li>
+<p>方程组</p>
+<ul>
+<li>使用 \begin{cases}… \end{cases} 来表示方程组，例如：<br>
+latex<br>
+\begin{cases}<br>
+x + y = 3 \<br>
+x - y = 1<br>
+\end{cases}</li>
+</ul>
+<p>显示为<br>
+\begin{cases}<br>
+x + y = 3 \<br>
+x - y = 1<br>
+\end{cases}</p>
+</li>
+<li>
+<p>矩阵</p>
+<ul>
+<li>使用 \begin{pmatrix}… \end{pmatrix} 来表示矩阵，例如：<br>
+latex<br>
+\begin{pmatrix}<br>
+1 &amp; 2 \<br>
+3 &amp; 4<br>
+\end{pmatrix}</li>
+</ul>
+<p>显示为<br>
+$\begin{pmatrix}<br>
+1 &amp; 2 \<br>
+3 &amp; 4<br>
+\end{pmatrix}$</p>
+</li>
+</ol>
+<p>这只是一些常见的数学公式示例，LaTeX 提供了丰富的数学符号和功能，可以满足各种数学表达式的需求。你可以根据具体的公式内容选择合适的命令和语法来进行编写。如果需要更复杂的数学公式或特定领域的符号，可以参考 LaTeX 的数学文档或相关的数学宏包。</p>
 ]]></content>
       <categories>
         <category>日记</category>
@@ -18,11 +96,16 @@
   </entry>
   <entry>
     <title>Liiany</title>
-    <url>/liiany.html</url>
+    <url>/undefined/Liiany/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>Yuoek</h1>
 <center><font color=#6f5dee>红猪 </font>
 <span id="more"></span>
 <p>傻瓜，初吻是要留给最重要的人的!</p>
+<p>$\iint_{1}^{2}{f(x)}{\rm d}x$<br>
+$\alpha$</p>
+<p>$$<br>
+\iint\limits_D\left(\dfrac{partial Q}{\partial x}-\dfrac{\partial P}{\partial y}\right){\rm d}x{\rm d}y=\oint\limits_LP{\rm d}x+Q{\rm d}y<br>
+$$</p>
 ]]></content>
       <categories>
         <category>日记</category>
@@ -33,12 +116,115 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo_标签</title>
+    <url>/undefined/Hexo-%E6%A0%87%E7%AD%BE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Hexo 标签，以备遗忘</p>
+<p><img src="images/fly.png" alt="Liiany"></p>
+<span id="more"></span>
+<h2 id="一-Pdf-书籍插入">一. Pdf 书籍插入</h2>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;Yu/Books/1.pdf&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%; height:1080px;&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;0&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<h2 id="二-Latex公式">二. Latex公式</h2>
+<p>$$\begin{split}<br>
+\cos 2x &amp;= \cos^2x - \sin^2x \\<br>
+&amp;=2\cos^2x-1<br>
+\end{split}$$</p>
+<p>$$<br>
+f(n) =<br>
+\begin{cases}<br>
+n/2,  &amp; \text{if }n\text{ is even} \\<br>
+3n+1, &amp; \text{if }n\text{ is odd}<br>
+\end{cases}<br>
+$$</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\begin</span>&#123;split&#125;</span><br><span class="line"><span class="keyword">\cos</span> 2x <span class="built_in">&amp;</span>= <span class="keyword">\cos</span><span class="built_in">^</span>2x - <span class="keyword">\sin</span><span class="built_in">^</span>2x <span class="keyword">\\</span><span class="keyword">\\</span></span><br><span class="line"><span class="built_in">&amp;</span>=2<span class="keyword">\cos</span><span class="built_in">^</span>2x-1</span><br><span class="line"><span class="keyword">\end</span>&#123;split&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line">f(n) =</span><br><span class="line"><span class="keyword">\begin</span>&#123;cases&#125; </span><br><span class="line">n/2,  <span class="built_in">&amp;</span> <span class="keyword">\text</span>&#123;if &#125;n<span class="keyword">\text</span>&#123; is even&#125; <span class="keyword">\\</span><span class="keyword">\\</span></span><br><span class="line">3n+1, <span class="built_in">&amp;</span> <span class="keyword">\text</span>&#123;if &#125;n<span class="keyword">\text</span>&#123; is odd&#125;</span><br><span class="line"><span class="keyword">\end</span>&#123;cases&#125;</span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<h2 id="三-Markmap-标签">三. Markmap 标签</h2>
+
+<div class="markmap-container" style="height:400px">
+  <svg data="{&quot;t&quot;:&quot;root&quot;,&quot;d&quot;:0,&quot;v&quot;:&quot;&quot;,&quot;c&quot;:[{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:2,&quot;p&quot;:{&quot;lines&quot;:[0,1]},&quot;v&quot;:&quot;links&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:2,&quot;p&quot;:{&quot;lines&quot;:[2,3]},&quot;v&quot;:&quot;&lt;strong&gt;inline&lt;/strong&gt; &lt;del&gt;text&lt;/del&gt; &lt;em&gt;styles&lt;/em&gt;&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:2,&quot;p&quot;:{&quot;lines&quot;:[4,6]},&quot;v&quot;:&quot;multiline&lt;br&gt;\ntext&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:2,&quot;p&quot;:{&quot;lines&quot;:[7,8]},&quot;v&quot;:&quot;&lt;code&gt;inline code&lt;/code&gt;&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:2,&quot;p&quot;:{&quot;lines&quot;:[9,10]},&quot;v&quot;:&quot;遇光见影，遇你见爱！&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:2,&quot;p&quot;:{&quot;lines&quot;:[11,12]},&quot;v&quot;:&quot;KaTeX - &lt;span class=\&quot;katex\&quot;&gt;&lt;span class=\&quot;katex-mathml\&quot;&gt;&lt;math xmlns=\&quot;http://www.w3.org/1998/Math/MathML\&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo&gt;±&lt;/mo&gt;&lt;msqrt&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mrow&gt;&lt;/msqrt&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=\&quot;application/x-tex\&quot;&gt;x = { -b \\pm \\sqrt{b^2-4ac } \\over 2a}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=\&quot;katex-html\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;span class=\&quot;base\&quot;&gt;&lt;span class=\&quot;strut\&quot; style=\&quot;height:0.4306em;\&quot;&gt;&lt;/span&gt;&lt;span class=\&quot;mord mathnormal\&quot;&gt;x&lt;/span&gt;&lt;span class=\&quot;mspace\&quot; style=\&quot;margin-right:0.2778em;\&quot;&gt;&lt;/span&gt;&lt;span class=\&quot;mrel\&quot;&gt;=&lt;/span&gt;&lt;span class=\&quot;mspace\&quot; style=\&quot;margin-right:0.2778em;\&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=\&quot;base\&quot;&gt;&lt;span class=\&quot;strut\&quot; style=\&quot;height:1.3845em;vertical-align:-0.345em;\&quot;&gt;&lt;/span&gt;&lt;span class=\&quot;mord\&quot;&gt;&lt;span class=\&quot;mord\&quot;&gt;&lt;span class=\&quot;mopen nulldelimiter\&quot;&gt;&lt;/span&gt;&lt;span class=\&quot;mfrac\&quot;&gt;&lt;span class=\&quot;vlist-t vlist-t2\&quot;&gt;&lt;span class=\&quot;vlist-r\&quot;&gt;&lt;span class=\&quot;vlist\&quot; style=\&quot;height:1.0395em;\&quot;&gt;&lt;span style=\&quot;top:-2.655em;\&quot;&gt;&lt;span class=\&quot;pstrut\&quot; style=\&quot;height:3em;\&quot;&gt;&lt;/span&gt;&lt;span class=\&quot;sizing reset-size6 size3 mtight\&quot;&gt;&lt;span class=\&quot;mord mtight\&quot;&gt;&lt;span class=\&quot;mord mtight\&quot;&gt;2&lt;/span&gt;&lt;span class=\&quot;mord mathnormal mtight\&quot;&gt;a&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=\&quot;top:-3.23em;\&quot;&gt;&lt;span class=\&quot;pstrut\&quot; style=\&quot;height:3em;\&quot;&gt;&lt;/span&gt;&lt;span class=\&quot;frac-line\&quot; style=\&quot;border-bottom-width:0.04em;\&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=\&quot;top:-3.394em;\&quot;&gt;&lt;span class=\&quot;pstrut\&quot; style=\&quot;height:3em;\&quot;&gt;&lt;/span&gt;&lt;span class=\&quot;sizing reset-size6 size3 mtight\&quot;&gt;&lt;span class=\&quot;mord mtight\&quot;&gt;&lt;span class=\&quot;mord mtight\&quot;&gt;−&lt;/span&gt;&lt;span class=\&quot;mord mathnormal mtight\&quot;&gt;b&lt;/span&gt;&lt;span class=\&quot;mbin mtight\&quot;&gt;±&lt;/span&gt;&lt;span class=\&quot;mord sqrt mtight\&quot;&gt;&lt;span class=\&quot;vlist-t vlist-t2\&quot;&gt;&lt;span class=\&quot;vlist-r\&quot;&gt;&lt;span class=\&quot;vlist\&quot; style=\&quot;height:0.9221em;\&quot;&gt;&lt;span class=\&quot;svg-align\&quot; style=\&quot;top:-3em;\&quot;&gt;&lt;span class=\&quot;pstrut\&quot; style=\&quot;height:3em;\&quot;&gt;&lt;/span&gt;&lt;span class=\&quot;mord mtight\&quot; style=\&quot;padding-left:0.833em;\&quot;&gt;&lt;span class=\&quot;mord mtight\&quot;&gt;&lt;span class=\&quot;mord mathnormal mtight\&quot;&gt;b&lt;/span&gt;&lt;span class=\&quot;msupsub\&quot;&gt;&lt;span class=\&quot;vlist-t\&quot;&gt;&lt;span class=\&quot;vlist-r\&quot;&gt;&lt;span class=\&quot;vlist\&quot; style=\&quot;height:0.7463em;\&quot;&gt;&lt;span style=\&quot;top:-2.786em;margin-right:0.0714em;\&quot;&gt;&lt;span class=\&quot;pstrut\&quot; style=\&quot;height:2.5em;\&quot;&gt;&lt;/span&gt;&lt;span class=\&quot;sizing reset-size3 size1 mtight\&quot;&gt;&lt;span class=\&quot;mord mtight\&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=\&quot;mbin mtight\&quot;&gt;−&lt;/span&gt;&lt;span class=\&quot;mord mtight\&quot;&gt;4&lt;/span&gt;&lt;span class=\&quot;mord mathnormal mtight\&quot;&gt;a&lt;/span&gt;&lt;span class=\&quot;mord mathnormal mtight\&quot;&gt;c&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=\&quot;top:-2.8821em;\&quot;&gt;&lt;span class=\&quot;pstrut\&quot; style=\&quot;height:3em;\&quot;&gt;&lt;/span&gt;&lt;span class=\&quot;hide-tail mtight\&quot; style=\&quot;min-width:0.853em;height:1.08em;\&quot;&gt;&lt;svg xmlns=\&quot;http://www.w3.org/2000/svg\&quot; width=&#39;400em&#39; height=&#39;1.08em&#39; viewBox=&#39;0 0 400000 1080&#39; preserveAspectRatio=&#39;xMinYMin slice&#39;&gt;&lt;path d=&#39;M95,702\nc-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14\nc0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54\nc44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10\ns173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429\nc69,-144,104.5,-217.7,106.5,-221\nl0 -0\nc5.3,-9.3,12,-14,20,-14\nH400000v40H845.2724\ns-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7\nc-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z\nM834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=\&quot;vlist-s\&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=\&quot;vlist-r\&quot;&gt;&lt;span class=\&quot;vlist\&quot; style=\&quot;height:0.1179em;\&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=\&quot;vlist-s\&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=\&quot;vlist-r\&quot;&gt;&lt;span class=\&quot;vlist\&quot; style=\&quot;height:0.345em;\&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=\&quot;mclose nulldelimiter\&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&quot;},{&quot;t&quot;:&quot;list_item&quot;,&quot;d&quot;:2,&quot;p&quot;:{&quot;lines&quot;:[13,14]},&quot;v&quot;:&quot;IMG &lt;img src=\&quot;https://www.feloy.top/images/flyfull.png\&quot; style=\&quot;zoom:25%;\&quot; /&gt;&quot;}],&quot;p&quot;:{}}"></svg>
+</div>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% markmap 400px %&#125;</span><br><span class="line"><span class="bullet">-</span> links</span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="strong">**inline**</span> ~~text~~ <span class="emphasis">*styles*</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> multiline</span><br><span class="line">  text</span><br><span class="line">  </span><br><span class="line"><span class="bullet">-</span> <span class="code">`inline code`</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> 遇光见影，遇你见爱！</span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> KaTeX - $x = &#123; -b \pm \sqrt&#123;b^2-4ac &#125; \over 2a&#125;$</span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> IMG <span class="language-xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://www.feloy.top/images/flyfull.png&quot;</span> <span class="attr">style</span>=<span class="string">&quot;zoom:25%;&quot;</span> /&gt;</span></span></span><br><span class="line"></span><br><span class="line">&#123;% endmarkmap %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="四-Dplayer视频">四. Dplayer视频</h2>
+<table>
+<thead>
+<tr>
+<th>空镜头</th>
+<th>全景</th>
+<th>特写</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"loop":"yes","screenshot":"yes","video":{"url":"/vedio/1.mp4"},"subtitle":{"url":"/vedio/1.vtt"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></td>
+<td><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"loop":"yes","screenshot":"yes","video":{"url":"/Yu/1.mp4"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></td>
+<td><div id="dplayer2" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer2"),"loop":"yes","screenshot":"yes","video":{"url":"/Yu/1.mp4"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></td>
+</tr>
+<tr>
+<td>空镜头</td>
+<td>全景</td>
+<td>特写</td>
+</tr>
+<tr>
+<td><div id="dplayer3" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer3"),"loop":"yes","screenshot":"yes","video":{"url":"/vedio/1.mp4"},"subtitle":{"url":"/vedio/1.vtt"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></td>
+<td><div id="dplayer4" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer4"),"loop":"yes","screenshot":"yes","video":{"url":"/Yu/1.mp4"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></td>
+<td><div id="dplayer5" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer5"),"loop":"yes","screenshot":"yes","video":{"url":"/Yu/1.mp4"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></td>
+</tr>
+</tbody>
+</table>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">| 空镜头                                                       | 全景                          | 特写                          |</span><br><span class="line">| ------------------------------------------------------------ | ----------------------------- | ----------------------------- |</span><br><span class="line">| &#123;% dplayer &quot;url=/vedio/1.mp4&quot; &quot;suburl=/vedio/1.vtt&quot; %&#125; | &#123;% dplayer &quot;url=/Yu/1.mp4&quot; %&#125; | &#123;% dplayer &quot;url=/Yu/1.mp4&quot; %&#125; |</span><br><span class="line">| 空镜头                                                       | 全景                          | 特写                          |</span><br><span class="line">| &#123;% dplayer &quot;url=/vedio/1.mp4&quot; &quot;suburl=/vedio/1.vtt&quot; %&#125; | &#123;% dplayer &quot;url=/Yu/1.mp4&quot; %&#125; | &#123;% dplayer &quot;url=/Yu/1.mp4&quot; %&#125; |</span><br></pre></td></tr></table></figure>
+<h2 id="五-Echarts-图片">五. Echarts 图片</h2>
+<p>ifreme 引入 html 文件</p>
+<h2 id="六-Aplayer-音乐">六. Aplayer 音乐</h2>
+<p>网易云音乐</p>
+
+    <div id="aplayer-JfNXuzLD" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="1978921795" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#777777"
+    ></div>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% meting &quot;1978921795&quot; &quot;netease&quot; &quot;playlist&quot; &quot;mutex:true&quot; &quot;theme:#777777&quot; %&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>标签</category>
+      </categories>
+      <tags>
+        <tag>练习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Y</title>
-    <url>/y.html</url>
+    <url>/undefined/Yu/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>Yuoek</h1>
-<center><font color=#6f5dee>我想看看自己出鞘后的样子 </font>
+<center><font color=#6f5dee>我想看看自己出鞘后的样子 </font></center>
 <span id="more"></span>
 <p>有更大的梦想就去做吧，你值得更优秀！</p>
+<p>termux 设置默认启动文件夹<br>
+在 Termux 中，你可以通过修改 <code>.bashrc</code> 文件来设置默认启动文件夹。以下是一般的步骤：</p>
+<ol>
+<li>
+<p>打开 Termux 应用。</p>
+</li>
+<li>
+<p>输入以下命令来编辑 <code>.bashrc</code> 文件：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nano ~/.bashrc</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>在 <code>.bashrc</code> 文件中，找到以下行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd ~</span><br></pre></td></tr></table></figure>
+<p>这行代码表示默认进入用户的主目录。</p>
+</li>
+<li>
+<p>将 <code>cd ~</code> 替换为你想要设置为默认启动文件夹的路径。例如，如果你想将默认启动文件夹设置为 <code>/sdcard/Documents</code>，则将该行替换为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd /sdcard/Documents</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>按下 <code>Ctrl + X</code> 组合键，然后按 <code>Y</code> 键保存修改并退出 <code>nano</code> 编辑器。</p>
+</li>
+<li>
+<p>为了使修改生效，输入以下命令来重新加载 <code>.bashrc</code> 文件：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>现在，当你重新打开 Termux 时，它将默认进入你设置的文件夹。</p>
+<p>请注意，上述步骤中的文件夹路径应根据你的实际需求进行修改。此外，不同的 Android 设备和文件系统结构可能会有所不同，你可能需要根据自己的情况调整文件夹路径。</p>
 ]]></content>
       <categories>
         <category>日记</category>
@@ -49,18 +235,100 @@
       </tags>
   </entry>
   <entry>
+    <title>Yu</title>
+    <url>/undefined/Yuoek/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>Yuoek</h1>
+<center><font color=#6f5dee>Yuoek, thank you! </font>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>日记</category>
+        <category>Yu</category>
+      </categories>
+      <tags>
+        <tag>Yu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>time</title>
+    <url>/music/time/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>  <link href="/html/video-js.css" rel="stylesheet" />
+  <link href/html/videojs-transcript.css" title="CDN" rel="stylesheet">
+  <!-- local dev: -->
+  <!-- <link href="/css/videojs-transcript.css" title="Example 1" rel="stylesheet">
+  <link href="/css/videojs-transcript2.css" title="Example 2" rel="alternate stylesheet">
+  <link href="/css/videojs-transcript3.css" title="Example 3" rel="alternate stylesheet"> -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .info {
+      background-color: #eee0;
+      border: thin solid #3330;
+      border-radius: 0px;
+      padding: 0 0px;
+      text-align: left;
+    }
+    .video-js {
+      margin: 0px 0;
+    }
+  </style>
+  <script src="/html/video.js"></script>
+  <script src="/html/videojs-transcript-click.min.js"></script>
+  <div class="info">
+    <p style="margin-top: 0px; margin-bottom: 0px; color:#ff3502; font-size: 20px;">
+      遇光见影,遇你见爱
+    </p>
+  </div>
+  <div class="video-container">
+    <video id="video"
+           class="video-js vjs-default-skin"
+           height="400px"
+           width="600px"
+           controls>
+<pre><code>  &lt;source src=&quot;&quot; type=&quot;video/webm&quot;&gt;
+  &lt;source src=&quot;/Yu/10.Things.I.Hate.About.You.1999.mp4&quot; type=&quot;video/mp4&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;&quot; srclang=&quot;en&quot; label=&quot;English&quot; default&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;LZ.vtt&quot; srclang=&quot;Egnlish&quot; label=&quot;Swedish&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;LZ.vtt&quot; srclang=&quot;ru&quot; label=&quot;Russian&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;https://cdn.jsdelivr.net/gh/tombyrer/videojs-transcript-click@1.0/demo/captions.ja.vtt&quot; srclang=&quot;ja&quot; label=&quot;Japanese&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;https://cdn.jsdelivr.net/gh/tombyrer/videojs-transcript-click@1.0/demo/captions.ar.vtt&quot; srclang=&quot;ar&quot; label=&quot;Arabic&quot;&gt;
+  &lt;!-- local dev: --&gt;
+  &lt;!-- &lt;track kind=&quot;captions&quot; src=&quot;captions.en.vtt&quot; srclang=&quot;en&quot; label=&quot;English&quot; default&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.sv.vtt&quot; srclang=&quot;sv&quot; label=&quot;Swedish&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.ru.vtt&quot; srclang=&quot;ru&quot; label=&quot;Russian&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.ja.vtt&quot; srclang=&quot;ja&quot; label=&quot;Japanese&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.ar.vtt&quot; srclang=&quot;ar&quot; label=&quot;Arabic&quot;&gt; --&gt;
+&lt;/video&gt;
+&lt;div id=&quot;transcript&quot;&gt;&lt;/div&gt;
+</code></pre>
+  </div>
+  <script>
+    var video = videojs('video')
+    video.ready(function(){
+        // fire up the plugin
+        var transcript = this.transcript();
+        // attach widget to the page
+        var transcriptContainer = document.querySelector('#transcript');
+        transcriptContainer.appendChild(transcript.el());
+    });
+  </script>
+<h2 id="Time-is-old">Time is old</h2>
+]]></content>
+  </entry>
+  <entry>
     <title>漫芊遍野</title>
-    <url>/%E6%BC%AB%E8%8A%8A%E9%81%8D%E9%87%8E.html</url>
+    <url>/undefined/%E6%BC%AB%E8%8A%8A%E9%81%8D%E9%87%8E/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>漫芊遍野</h1>
 <center><font color=#6f5dee>遇光见影，遇你见爱! </font>
 <span id="more"></span>
 
-        <div id="aplayer-IknbzgQK" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-CjQtasSn" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-IknbzgQK"),
+            element: document.getElementById("aplayer-CjQtasSn"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -132,29 +400,153 @@
       </tags>
   </entry>
   <entry>
-    <title>Yu</title>
-    <url>/yu.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>Yuoek</h1>
-<center><font color=#6f5dee>Yuoek, thank you! </font>
-<span id="more"></span>
-<p>My dear yang, belive yourself!</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-        <category>Yu</category>
-      </categories>
-      <tags>
-        <tag>Yu</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>film</title>
-    <url>/film/index.html</url>
+    <title>en</title>
+    <url>/en/post-en/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
   </entry>
   <entry>
-    <title>categories</title>
-    <url>/categories/index.html</url>
+    <title>Dream</title>
+    <url>/en/Dream/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>  <link href="/html/video-js.css" rel="stylesheet" />
+  <link href/html/videojs-transcript.css" title="CDN" rel="stylesheet">
+  <!-- local dev: -->
+  <!-- <link href="/css/videojs-transcript.css" title="Example 1" rel="stylesheet">
+  <link href="/css/videojs-transcript2.css" title="Example 2" rel="alternate stylesheet">
+  <link href="/css/videojs-transcript3.css" title="Example 3" rel="alternate stylesheet"> -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .info {
+      background-color: #eee0;
+      border: thin solid #3330;
+      border-radius: 0px;
+      padding: 0 0px;
+      text-align: left;
+    }
+    .video-js {
+      margin: 0px 0;
+    }
+  </style>
+  <script src="/html/video.js"></script>
+  <script src="/html/videojs-transcript-click.min.js"></script>
+  <div class="info">
+    <p style="margin-top: 0px; margin-bottom: 0px; color:#ff3502; font-size: 20px;">
+      遇光见影,遇你见爱
+    </p>
+  </div>
+  <div class="video-container">
+    <video id="video"
+           class="video-js vjs-default-skin"
+           height="400px"
+           width="600px"
+           controls>
+<pre><code>  &lt;source src=&quot;&quot; type=&quot;video/webm&quot;&gt;
+  &lt;source src=&quot;/Yu/10.Things.I.Hate.About.You.1999.mp4&quot; type=&quot;video/mp4&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;&quot; srclang=&quot;en&quot; label=&quot;English&quot; default&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;LZ.vtt&quot; srclang=&quot;Egnlish&quot; label=&quot;Swedish&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;LZ.vtt&quot; srclang=&quot;ru&quot; label=&quot;Russian&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;https://cdn.jsdelivr.net/gh/tombyrer/videojs-transcript-click@1.0/demo/captions.ja.vtt&quot; srclang=&quot;ja&quot; label=&quot;Japanese&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;https://cdn.jsdelivr.net/gh/tombyrer/videojs-transcript-click@1.0/demo/captions.ar.vtt&quot; srclang=&quot;ar&quot; label=&quot;Arabic&quot;&gt;
+  &lt;!-- local dev: --&gt;
+  &lt;!-- &lt;track kind=&quot;captions&quot; src=&quot;captions.en.vtt&quot; srclang=&quot;en&quot; label=&quot;English&quot; default&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.sv.vtt&quot; srclang=&quot;sv&quot; label=&quot;Swedish&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.ru.vtt&quot; srclang=&quot;ru&quot; label=&quot;Russian&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.ja.vtt&quot; srclang=&quot;ja&quot; label=&quot;Japanese&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.ar.vtt&quot; srclang=&quot;ar&quot; label=&quot;Arabic&quot;&gt; --&gt;
+&lt;/video&gt;
+&lt;div id=&quot;transcript&quot;&gt;&lt;/div&gt;
+</code></pre>
+  </div>
+  <script>
+    var video = videojs('video')
+    video.ready(function(){
+        // fire up the plugin
+        var transcript = this.transcript();
+        // attach widget to the page
+        var transcriptContainer = document.querySelector('#transcript');
+        transcriptContainer.appendChild(transcript.el());
+    });
+  </script>]]></content>
+  </entry>
+  <entry>
+    <title>Dream</title>
+    <url>/zh-CN/Dream/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>  <link href="/html/video-js.css" rel="stylesheet" />
+  <link href/html/videojs-transcript.css" title="CDN" rel="stylesheet">
+  <!-- local dev: -->
+  <!-- <link href="/css/videojs-transcript.css" title="Example 1" rel="stylesheet">
+  <link href="/css/videojs-transcript2.css" title="Example 2" rel="alternate stylesheet">
+  <link href="/css/videojs-transcript3.css" title="Example 3" rel="alternate stylesheet"> -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .info {
+      background-color: #eee0;
+      border: thin solid #3330;
+      border-radius: 0px;
+      padding: 0 0px;
+      text-align: left;
+    }
+    .video-js {
+      margin: 0px 0;
+    }
+  </style>
+  <script src="/html/video.js"></script>
+  <script src="/html/videojs-transcript-click.min.js"></script>
+  <div class="info">
+    <p style="margin-top: 0px; margin-bottom: 0px; color:#ff3502; font-size: 20px;">
+      遇光见影,遇你见爱
+    </p>
+  </div>
+  <div class="video-container">
+    <video id="video"
+           class="video-js vjs-default-skin"
+           height="400px"
+           width="600px"
+           controls>
+<pre><code>  &lt;source src=&quot;&quot; type=&quot;video/webm&quot;&gt;
+  &lt;source src=&quot;/Yu/10.Things.I.Hate.About.You.1999.mp4&quot; type=&quot;video/mp4&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;&quot; srclang=&quot;en&quot; label=&quot;English&quot; default&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;LZ.vtt&quot; srclang=&quot;Egnlish&quot; label=&quot;Swedish&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;LZ.vtt&quot; srclang=&quot;ru&quot; label=&quot;Russian&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;https://cdn.jsdelivr.net/gh/tombyrer/videojs-transcript-click@1.0/demo/captions.ja.vtt&quot; srclang=&quot;ja&quot; label=&quot;Japanese&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;https://cdn.jsdelivr.net/gh/tombyrer/videojs-transcript-click@1.0/demo/captions.ar.vtt&quot; srclang=&quot;ar&quot; label=&quot;Arabic&quot;&gt;
+  &lt;!-- local dev: --&gt;
+  &lt;!-- &lt;track kind=&quot;captions&quot; src=&quot;captions.en.vtt&quot; srclang=&quot;en&quot; label=&quot;English&quot; default&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.sv.vtt&quot; srclang=&quot;sv&quot; label=&quot;Swedish&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.ru.vtt&quot; srclang=&quot;ru&quot; label=&quot;Russian&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.ja.vtt&quot; srclang=&quot;ja&quot; label=&quot;Japanese&quot;&gt;
+  &lt;track kind=&quot;captions&quot; src=&quot;captions.ar.vtt&quot; srclang=&quot;ar&quot; label=&quot;Arabic&quot;&gt; --&gt;
+&lt;/video&gt;
+&lt;div id=&quot;transcript&quot;&gt;&lt;/div&gt;
+</code></pre>
+  </div>
+  <script>
+    var video = videojs('video')
+    video.ready(function(){
+        // fire up the plugin
+        var transcript = this.transcript();
+        // attach widget to the page
+        var transcriptContainer = document.querySelector('#transcript');
+        transcriptContainer.appendChild(transcript.el());
+    });
+  </script>]]></content>
+  </entry>
+  <entry>
+    <title>zh</title>
+    <url>/zh-CN/post-zh/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
+    <title>archives</title>
+    <url>/archives/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
+    <title>about</title>
+    <url>/about/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
   </entry>
   <entry>
@@ -265,6 +657,16 @@
     overflow: hidden;
 }
 ]]></content>
+  </entry>
+  <entry>
+    <title>categories</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
+    <title>film</title>
+    <url>/film/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
   </entry>
   <entry>
     <title></title>
@@ -3311,8 +3713,13 @@ body a:hover{text-decoration:underline}
 ]]></content>
   </entry>
   <entry>
-    <title>schedule</title>
-    <url>/schedule/index.html</url>
+    <title>life</title>
+    <url>/life/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
+    <title>paint</title>
+    <url>/paint/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
   </entry>
   <entry>
@@ -3320,10 +3727,25 @@ body a:hover{text-decoration:underline}
     <url>/music/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>我在未来等我</h1>
 
-    <div id="aplayer-tsyAgGyZ" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-iTAIuiiZ" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="8894629684" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div> 
 ]]></content>
+  </entry>
+  <entry>
+    <title>poetry</title>
+    <url>/poetry/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
+    <title>quotes</title>
+    <url>/quotes/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
+    <title>schedule</title>
+    <url>/schedule/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
   </entry>
   <entry>
     <title>tags</title>

@@ -215,7 +215,7 @@ footer:
   # Icon between year and copyright info.
   icon:
     # Icon name in Font Awesome. See: https://fontawesome.com/icons
-    name: 
+    name:
     # If you want to animate the icon, set it to true.
     animated: false
     # Change the color of icon, using Hex Code.
@@ -230,9 +230,9 @@ footer:
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
     enable: false #true
-    icp: 
+    icp:
     # The digit in the num of gongan beian.
-    gongan_id: 
+    gongan_id:
     # The full num of gongan beian.
     gongan_num:
     # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
@@ -516,16 +516,24 @@ math:
   # That is it only render those page which has `mathjax: true` in front-matter.
   # If you set it to true, it will load mathjax / katex script EVERY PAGE.
   every_page: true
+# pandoc:
+#   args:
+#     - "-f"
+#     - "markdown"
+#     - "-t"
+#     - "html"
+#     - "--mathjax"
+mathjax:
+  enable: true
+  # Available values: none | ams | all
+  tags: none
+  mhchem: true
+  per_page: true
 
-  mathjax:
-    enable: true
-    # Available values: none | ams | all
-    tags: none
-
-  katex:
-    enable: true
-    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
-    copy_tex: true
+katex:
+  enable: true
+  # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
+  copy_tex: true
 
 # Easily enable fast Ajax navigation on your website.
 # For more information: https://github.com/next-theme/pjax
@@ -744,21 +752,21 @@ busuanzi_count:
 algolia_search:
   enable: false
   hits:
-    per_page: 99                                                   
+    per_page: 99
 
 
 #主页每页显示文章数
 index_generator:
-    per_page: 99
+    per_page: 10
 #archive分页每页显示文章数
 archive_generator:
-    per_page: 99
+    per_page: 10
 #tag分页每页显示文章数
 tag_generator:
-    per_page: 99
+    per_page: 10
 #category分页每页显示文章数
-category_generator: 
-    per_page: 99
+category_generator:
+    per_page: 10
 
 
 # Local Search
@@ -850,7 +858,7 @@ pdf:
 mermaid:
   enable: true
   # Available themes: default | dark | forest | neutral
-  theme: 
+  theme:
     light: default
     dark: dark
 
